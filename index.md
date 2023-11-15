@@ -1,5 +1,14 @@
-Here you can say lots of fun things about your site.
+ {% for post in site.posts %}
+  <article>
+    <h2>
+      <a href="{{ post.url }}">
+        {{ post.title }}
+      </a>
+    </h2>
+    <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time>
+    {{ post.content }}
+  </article>
+{% endfor %}
 
-Maybe say a some things about yourself.
 
-Or maybe what you plan to blog about.
+> In the dance of ones and zeros, the hacker floats on the river of code, the binary symphony echoing through the digital bamboo groves. In the realm of bits, the master hacker is a silent breeze, stirring the pixels with a keystroke kata. As the firewall crumbles like a sandcastle under the moonlight, the hacker, serene as a cat on a windowsill, ponders the paradox of passwords. In the matrix of chaos, find the stillness of a glitched haiku. Encryption whispers secrets, and in the hum of servers, the hacker finds enlightenment, knowing that in the binary garden, the root of all code is but a cosmic laugh.
