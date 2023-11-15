@@ -9,6 +9,3 @@
     {{ post.content }}
   </article>
 {% endfor %}
-
-
-> In the dance of ones and zeros, the hacker floats on the river of code, the binary symphony echoing through the digital bamboo groves. In the realm of bits, the master hacker is a silent breeze, stirring the pixels with a keystroke kata. As the firewall crumbles like a sandcastle under the moonlight, the hacker, serene as a cat on a windowsill, ponders the paradox of passwords. In the matrix of chaos, find the stillness of a glitched haiku. Encryption whispers secrets, and in the hum of servers, the hacker finds enlightenment, knowing that in the binary garden, the root of all code is but a cosmic laugh.
